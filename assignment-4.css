@@ -1,0 +1,51 @@
+#box1 {
+    height: 100px;
+    width: 100px;
+    background: green;
+    margin: 20px;
+    transition: 2s ease-in 0.5s;
+}
+#box1:hover {
+    width: 600px;
+}
+#box2 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 20px;
+    transition: 0.5s;
+}
+#box2:hover {
+    transform: translate(200px, 200px) rotate(90deg); 
+}
+#box3 {
+    height: 100px;
+    width: 100px;
+    background: lightblue;
+    margin: 20px;
+    transition: 0.5s;
+}
+#box3:hover {
+    transform: skewX(20deg);
+}
+#box4 {
+    height: 100px;
+    width: 100px;
+    background: lightgreen;
+    margin: 20px;
+    transition: 0.5s;
+}
+#box4:hover {
+    box-shadow: 2px 2px 5px green;
+}
+#pokemon {
+    height: 200px;
+    width: 200px;
+    background: pink;
+    margin: 20px;
+    background-image: url(charizard.jpg);
+    background-size: cover;
+}
+#pokemon:hover {
+    opacity: 50%;
+}
